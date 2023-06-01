@@ -12,7 +12,7 @@ class CasosDeTesteFila(unittest.TestCase):
     def testEnfilerarDoisElementos(self):
         self.fila.enfilera(2)
         self.fila.enfilera(3)
-        self.assertEqual(self.fila.elementos, [2,3])
+        self.assertEqual(self.fila.elementos, [2,3,4])
 
     def testDesenfilera(self):
         self.fila.elementos = [2,3]
