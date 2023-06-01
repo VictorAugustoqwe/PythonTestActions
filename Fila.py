@@ -11,4 +11,5 @@ class Fila:
     def desenfilera(self):
         if self.vazio():
             return None
+        
         return self.elementos.pop(0)
